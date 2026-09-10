@@ -1,5 +1,3 @@
-package src.helpers;
-
 import java.awt.*;
 import javax.swing.border.Border;
 
