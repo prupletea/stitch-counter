@@ -1,4 +1,4 @@
-package src;
+package src.helpers;
 
 import java.awt.Color;
 import java.awt.event.MouseAdapter;
