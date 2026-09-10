@@ -5,7 +5,8 @@ import java.awt.*;
 public class StitchCounter extends JFrame implements ActionListener {
     static JFrame frame;
     static JTextField pgsInput, pgcInput, ygsInput, ygcInput, prsInput;
-    static JLabel ansLabel;
+    static JFrame res = new JFrame("Result");
+
     static int yrs;
 
     StitchCounter(){}
@@ -36,7 +37,7 @@ public class StitchCounter extends JFrame implements ActionListener {
         ygsLabel = new JLabel("Your gauge (stitches)");
         ygcLabel = new JLabel("Your gauge (cm)");
         prsLabel = new JLabel("Patter requires (stitches)");
-        ansLabel = new JLabel("You need " + getYRS() + " stitches.");
+        
 
         pgsInput = new JTextField();
         pgcInput = new JTextField();
@@ -72,7 +73,9 @@ public class StitchCounter extends JFrame implements ActionListener {
                 int prs = Integer.parseInt(prsInput.getText());
 
                 setYRS(pgs, pgc, ygs, ygc, prs);
-                p.add(ansLabel);
+                //ansLabel = new JLabel("You need " + getYRS() + " stitches.");
+                //p.add(ansLabel);
+                JOptionPane.showMessageDialog(res, "You need " + getYRS() + " stitches.");
             }
         });
 
@@ -90,6 +93,6 @@ public class StitchCounter extends JFrame implements ActionListener {
 }
 
 //todo
-// - display label after button click
 // - clean up the ui
 // - test
+// - turn into app
