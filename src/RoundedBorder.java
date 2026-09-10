@@ -1,4 +1,4 @@
-package helper_classes;
+package src;
 
 import java.awt.*;
 import javax.swing.border.Border;

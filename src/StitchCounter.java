@@ -1,5 +1,6 @@
+package src;
+ 
 import javax.swing.*;
-import helper_classes.*;
 import java.awt.event.*;
 import java.awt.Color;
 
