@@ -50,7 +50,7 @@ public class StitchCounter {
         ygcLabel.setForeground(Color.decode("#000"));
         p.add(ygcLabel);
         
-        prsLabel = new JLabel("Patter requires (stitches)");
+        prsLabel = new JLabel("Pattern requires (stitches)");
         prsLabel.setBounds(30, 260, 250, 30);
         prsLabel.setFont(loadFont("./resources/fonts/Lexend.ttf", 20));
         prsLabel.setForeground(Color.decode("#000"));
