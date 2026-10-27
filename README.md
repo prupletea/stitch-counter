@@ -6,3 +6,5 @@ A small desktop app I made for my friend who knits. This app calculates how many
 - Pattern requires (stitches) - how many stitches a certain part of a pattern requires.
 
 After providing all of these numbers, the program calculates approximately how many stitches you will need to match the size intended by the pattern.
+
+There is no release at the moment. To run the app, you need to clone the repo and build it yourself. I might add a release in the future, if necessary.
